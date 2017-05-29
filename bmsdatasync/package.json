@@ -1,0 +1,17 @@
+{
+    "name": "bmsdatasync",
+    "version": "1.0.0",
+    "description": "ITU BMS data synchronizer for BMS Cloud",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app"
+    },
+    "author": "Xu Guo",
+    "license": "ISC",
+    "dependencies": {
+        "mongojs": "^2.4.0",
+        "mysql": "^2.13.0",
+        "winston": "^2.3.1"
+    }
+}
